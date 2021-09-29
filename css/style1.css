@@ -1,0 +1,545 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+html {
+  font-size: 75%;
+  width: 100%;
+}
+.body {
+  position: relative;
+  font-family: Roboto;
+}
+
+.nav {
+  z-index: -1;
+  margin-top: 5rem;
+}
+
+
+
+/* title menu position fixing */
+.fixed-top{
+  position: fixed;
+  top:150px;
+  right:160px;
+}
+.button {
+  width: 696px;
+  height: 52px;
+  left: 275px;
+  top: 2884px;
+  color: white;
+  background-color: #2a407c;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.form-control {
+  width: 696px;
+  height: 169px;
+  left: 280px;
+}
+.card {
+  padding-left: 8px;
+  width: 750px;
+  height: 600px;
+}
+
+.comment-section {
+  display: block;
+  position: relative;
+  width: 100%;
+  top: 233px;
+  left: 56px;
+}
+.fa-heart {
+  margin-right: 80px;
+  background-color: white;
+  color: black;
+
+  margin-top: 50px;
+  margin-left: 20px;
+  width: 28.17px;
+  height: 28.65px;
+}
+.scroll {
+  position: relative;
+  overflow-y: scroll;
+  height: auto;
+}
+.nav-link,
+.nav-item {
+  color: grey;
+  text-transform: uppercase;
+}
+.nav-link.active.nav-item.active {
+  color: #ff6c47;
+}
+.comment {
+  margin-right: 1.5em;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+/* CSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.blog-page-container {
+  height: 141.3125em;
+  /* background-color: aqua; */
+}
+
+.blog-container {
+  margin: auto;
+  justify-content: center;
+
+  height: auto;
+  width: 820px;
+}
+
+.heading-box {
+  height: 191px;
+  width: 820px;
+  /* border: 1px solid blue; */
+}
+
+.heading-box hr {
+  margin: 0;
+}
+
+.heading-box #blog-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 41px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.head-tag {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid green; */
+  padding-top: 14px;
+}
+
+.btn-list {
+  padding-right: 10px;
+}
+.head-tag .btn {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  background-color: white;
+  color: #085cff;
+
+  width: 88px;
+  height: 24px;
+  border: 1px solid #085cff;
+  border-radius: 41px;
+  cursor: pointer;
+}
+
+#publish-details {
+  display: flex;
+}
+.author p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+
+  /* identical to box height */
+  padding: 20px 0 0 5px;
+
+  color: #182855;
+}
+
+.publish-time p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  text-align: right;
+  padding: 20px 0 0 558px;
+  color: #182855;
+}
+
+.body-container {
+  width: 820px;
+  height: 1760px;
+  /* border: 2px solid green; */
+}
+
+.blog-pic {
+  height: 440px;
+}
+
+.blog-pic img {
+  height: 440px;
+  width: 820px;
+  margin-top: 1.2rem;
+  margin-bottom: 1em;
+}
+
+.introduction p {
+  margin-top: 25px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 25px;
+
+  color: #000000;
+
+  /* border: 1px solid blue; */
+}
+
+.introduction span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+
+  color: #000000;
+}
+
+.content-pic {
+  margin: auto;
+  height: 462px;
+  width: 696px;
+}
+
+.pic-source {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #a7a7a7;
+}
+
+.pic-source p {
+  display: flex;
+  margin: auto;
+  /* align-content: center; */
+  justify-content: center;
+  padding: 20px 0 0 0;
+}
+
+.blog-content p {
+  margin-top: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 25px;
+
+  color: #000000;
+
+  /* border: 1px solid blue; */
+}
+
+.blog-content span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+
+  color: #000000;
+}
+
+.bottom-tag {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid green; */
+}
+
+.bottom-tag .btn {
+  background: #2a407c;
+  border-radius: 4px;
+  height: 37px;
+  width: 96px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.bottom-btn-list {
+  padding: 10px 0 0 10px;
+}
+.line {
+  background-color: #aaa8a8;
+  border: 1px solid #aaa8a8;
+  margin-top: -0.5em;
+  margin-bottom: 1em;
+}
+
+/* Social-Media box utility */
+
+#social-media-container {
+  display: inline-block;
+  border: 2px solid #7e7f82;
+  position: fixed;
+  top: 280px;
+  left: 170px;
+}
+
+#social-media-container ul {
+  margin: 0;
+  padding: 0;
+}
+#social-media-container ul li {
+  font-size: 25px;
+  list-style: none;
+}
+.icon-box {
+  padding-left: 10px;
+}
+.share-btn {
+  font-size: 16px;
+  width: 80px;
+  height: 35px;
+  left: 275px;
+  top: 2884px;
+  color: white;
+  background-color: #0d6efd;
+  border-radius: 33px;
+  border: none;
+  cursor: auto;
+}
+
+/* Icon Utility classes */
+/* Style all font awesome icons */
+.fa {
+  padding: 10px 0 10px 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-linkedin {
+  color: #007bb5;
+}
+
+.fa-instagram {
+  color: #125688;
+}
+
+/* Responsiveness Utilities */
+
+@media only screen   and (max-width: 600px) {
+  .author p {
+    font-size: 16px;
+    padding: 12px 0 0px 5px;
+  }
+  .publish-time p {
+    font-size: 16px;
+  }
+
+  .introduction p {
+    font-size: 20px;
+  }
+  .introduction span {
+    font-size: 30px;
+  }
+  .heading-box {
+    height: 120px;
+    width: 820px;
+  }
+  .heading-box #blog-heading {
+    font-size: 2rem;
+    line-height: 2.9rem;
+  }
+  .head-tag {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin-top: 2px;
+  }
+
+  .head-tag .btn {
+    width: 5.7rem;
+    height: 2rem;
+    font-size: 1.3rem;
+    border-radius: 1.2rem;
+  }
+  #social-media-container {
+    display: none;
+  }
+  .title-menu{
+    display: none;
+  }
+  .blog-pic img {
+    margin-top: 5px;
+    width: 100%;
+  }
+
+  .content-pic img {
+    width: 100%;
+  }
+  .blog-content p {
+    word-wrap: break-word;
+    font-size: 20px;
+  }
+  .comment-section{
+    left: 14px;
+    top: 170px;
+  }
+}
+
+
+@media only screen and (min-width:600px) and (max-width:900px) {
+
+  .comment-section{
+    width: 100%;
+    top: 171px;
+    left: -30px;
+  }
+  .author p {
+    font-size: 16px;
+    padding: 12px 0 0px 5px;
+  }
+  .publish-time p {
+    font-size: 16px;
+  }
+
+  .introduction p {
+    font-size: 20px;
+  }
+  .introduction span {
+    font-size: 30px;
+  }
+  .heading-box {
+    height: 120px;
+    width: 820px;
+
+  }
+  .heading-box #blog-heading {
+    font-size: 2rem;
+    line-height: 2.9rem;
+  }
+  .head-tag {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin-top: 2px;
+  }
+
+  .head-tag .btn {
+    width: 5.7rem;
+    height: 2rem;
+    font-size: 1.3rem;
+    border-radius: 1.2rem;
+  }
+  #social-media-container {
+    display: none;
+  }
+  .title-menu{
+    display: none;
+  }
+  .blog-pic img {
+    margin-top: 5px;
+    width: 100%;
+  }
+
+  .content-pic img {
+    width: 100%;
+  }
+  .blog-content p {
+    word-wrap: break-word;
+    font-size: 20px;
+  }
+}
+
+
+@media only screen and  (min-width: 900px) and (max-width: 1100px) {
+
+  
+  .comment-section{
+    width: 100%;
+    top: 171px;
+    left: -87px;
+  }
+  .author p {
+    font-size: 16px;
+    padding: 12px 0 0px 5px;
+  }
+  .publish-time p {
+    font-size: 16px;
+  }
+
+  .introduction p {
+    font-size: 20px;
+  }
+  .introduction span {
+    font-size: 30px;
+  }
+  .heading-box {
+    height: 120px;
+    width: 820px;
+  }
+  .heading-box #blog-heading {
+    font-size: 2rem;
+    line-height: 2.9rem;
+  }
+  .head-tag {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin-top: 2px;
+  }
+
+  .head-tag .btn {
+    width: 5.7rem;
+    height: 2rem;
+    font-size: 1.3rem;
+    border-radius: 1.2rem;
+  }
+  #social-media-container {
+    display: none;
+  }
+  .title-menu{
+    display: none;
+  }
+  .blog-pic img {
+    margin-top: 5px;
+    width: 100%;
+  }
+
+  .content-pic img {
+    width: 100%;
+  }
+  .blog-content p {
+    word-wrap: break-word;
+    font-size: 20px;
+  }
+}

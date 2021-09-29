@@ -4,116 +4,333 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>KDAG</title>
-    <link rel="stylesheet" href="page.css" />
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style1.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="css/page.css" />
+    <title>Document</title>
   </head>
   <body>
-    <div class="navbar"></div>
-    <div class="blog-page-container">
-      <div class="blog-container">
-        <div class="heading-box">
-          <div id="blog-heading">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-            alias
+    <!-- social-media box -->
+    <div id="social-media-container">
+      <div class="share-button">
+        <button class="share-btn">Share</button>
+      </div>
+      <div class="icon-box">
+        <ul>
+          <li>
+            <a href="#" class="fa fa-facebook"></a>
+          </li>
+          <li>
+            <a href="#" class="fa fa-linkedin"></a>
+          </li>
+          <li>
+            <a href="#" class="fa fa-twitter"></a>
+          </li>
+          <li>
+            <a href="#" class="fa fa-instagram"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <body
+      class="scroll"
+      data-bs-spy="scroll"
+      data-bs-target="#navbar-1"
+      tabindex="50"
+      data-offset="10"
+    >
+      <div id="item-1">
+        <!-- Blog content mid portion -->
+        <div class="blog-page-container" id="item-1">
+          <div class="blog-container">
+            <div class="heading-box">
+              <div id="blog-heading">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis alias
+              </div>
+
+              <div class="head-tag">
+                <div class="btn-list">
+                  <button class="btn">lorem</button>
+                </div>
+                <div class="btn-list">
+                  <button class="btn">lorem</button>
+                </div>
+              </div>
+              <div id="publish-details">
+                <div class="author">
+                  <p>• Alen • Max • Henry</p>
+                </div>
+                <div class="publish-time">
+                  <p>19 Sep 2021</p>
+                </div>
+              </div>
+              <hr
+                style="background-color: #aaa8a8; border: 1px solid #aaa8a8"
+              />
+            </div>
+            <div class="body-container">
+              <div class="blog-pic">
+                <img src="images/pic1.png" alt="" />
+              </div>
+              <div class="introduction" id="item-2">
+                <p>
+                  Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Voluptas, mollitia. sit amet consectetur
+                  adipisicing elit. Dolorem consectetur, cupiditate molestiae
+                  dolorum labore tenetur recusandae incidunt totam sint harum
+                  accusantium aliquid, nihil optio dicta! Ut, in officiis cum
+                  quidem unde officia, hic quam provident deleniti possimus
+                  excepturi rerum veritatis!
+                </p>
+
+                <span> Where does it come from? </span>
+
+                <p>
+                  Lorem ipsum dolor Lorem ipsum dolor sit amet. Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Voluptas,
+                  mollitia. sit amet consectetur adipisicing elit. Dolorem
+                  consectetur, cupiditate molestiae dolorum labore tenetur
+                  recusandae incidunt totam sint harum accusantium aliquid,
+                  nihil optio dicta! Ut, in officiis cum quidem unde officia,
+                  hic quam provident deleniti possimus excepturi rerum
+                  veritatis!
+                </p>
+              </div>
+              <div class="content-pic">
+                <img src="images/pic2.png" alt="" />
+              </div>
+              <div class="pic-source">
+                <p>Source: xxxxxxxxxxx</p>
+              </div>
+              <div class="blog-content" id="item-3">
+                <p>
+                  Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Voluptas, mollitia. sit amet consectetur
+                  adipisicing elit. Dolorem consectetur, cupiditate molestiae
+                  dolorum labore tenetur recusandae incidunt totam sint harum
+                  accusantium aliquid, nihil optio dicta! Ut, in officiis cum
+                  quidem unde officia, hic quam provident deleniti possimus
+                  excepturi rerum veritatis!
+                </p>
+
+                <span id="item-4"> Where does it come from? </span>
+
+                <p>
+                  Lorem ipsum dolor Lorem ipsum dolor sit amet. Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Voluptas,
+                  mollitia. sit amet consectetur adipisicing elit. Dolorem
+                  consectetur, cupiditate molestiae dolorum labore tenetur
+                  recusandae incidunt totam sint harum accusantium aliquid,
+                  nihil optio dicta! Ut, in officiis cum quidem unde officia,
+                  hic quam provident deleniti possimus excepturi rerum
+                  veritatis!
+                </p>
+              </div>
+
+              <div class="bottom-tag">
+                <div class="bottom-btn-list" id="item-5">
+                  <button class="btn">Tag</button>
+                </div>
+                <div class="bottom-btn-list">
+                  <button class="btn">Keyword</button>
+                </div>
+                <div class="bottom-btn-list">
+                  <button class="btn">Keyword</button>
+                </div>
+              </div>
+
+              <a href="#!"><i class="fa fa-heart fa-xs"></i></a>
+              <a><i class="fa fa-comment fa-xs"></i></a>
+              <hr
+                style="background-color: #aaa8a8; border: 1px solid #aaa8a8"
+              />
+            </div>
           </div>
 
-          <hr style="background-color: #aaa8a8; border: 1px solid #aaa8a8" />
-          <div class="head-tag">
-            <div class="btn-list">
-              <button class="btn">lorem</button>
-            </div>
-            <div class="btn-list">
-              <button class="btn">lorem</button>
-            </div>
-          </div>
-          <div id="publish-details">
-            <div class="author">
-              <p>• Alen • Max • Henry</p>
-            </div>
-            <div class="publish-time">
-              <p>19 Sep 2021</p>
-            </div>
+          <!-- Heading Menubox -->
+          <div class="title-menu">
+            <nav
+              id="navbar-1"
+              class="
+                navbar
+                nav nav-pills
+                flex-column
+                ms-auto
+                mb-2 mb-lg-0
+                navbar-light
+                bg-light
+                flex-column
+                align-items-stretch
+                p-3
+                fixed-top
+              "
+            >
+              <nav class="nav nav-pills flex-column ms-auto">
+                <a class="nav-link" href="#item-0"> </a>
+                <a class="nav-link" href="#item-1">Heading</a>
+
+                <a class="nav-link" href="#item-2">Title 1</a>
+                <a class="nav-link" href="#item-3">Title 2</a>
+                <a class="nav-link" href="#item-4">Title 3</a>
+                <a class="nav-link" href="#item-5">Title 4</a>
+                <a class="nav-link" href="#item-6">Title 5</a>
+                <a class="nav-link" href="#item-7">Title 6</a>
+                <a class="nav-link" href="#item-8">Title 7</a>
+              </nav>
+            </nav>
           </div>
         </div>
-        <div class="body-container">
-          <div class="blog-pic">
-            <img src="image\pic1.png" alt="" />
-          </div>
-          <div class="introduction">
-            <p>
-              Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Voluptas, mollitia. sit amet consectetur
-              adipisicing elit. Dolorem consectetur, cupiditate molestiae
-              dolorum labore tenetur recusandae incidunt totam sint harum
-              accusantium aliquid, nihil optio dicta! Ut, in officiis cum quidem
-              unde officia, hic quam provident deleniti possimus excepturi rerum
-              veritatis!
-            </p>
-            <br />
-            <span> Where does it come from? </span>
-            <br />
-            <br />
-            <p>
-              Lorem ipsum dolor Lorem ipsum dolor sit amet. Lorem ipsum dolor
-              sit amet consectetur adipisicing elit. Voluptas, mollitia. sit
-              amet consectetur adipisicing elit. Dolorem consectetur, cupiditate
-              molestiae dolorum labore tenetur recusandae incidunt totam sint
-              harum accusantium aliquid, nihil optio dicta! Ut, in officiis cum
-              quidem unde officia, hic quam provident deleniti possimus
-              excepturi rerum veritatis!
-            </p>
-            <br />
-          </div>
-          <div class="content-pic">
-            <img src="image\pic2.png" alt="" />
-          </div>
-          <div class="pic-source">
-            <p>Source: xxxxxxxxxxx</p>
-          </div>
-          <div class="blog-content">
-            <p>
-              Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Voluptas, mollitia. sit amet consectetur
-              adipisicing elit. Dolorem consectetur, cupiditate molestiae
-              dolorum labore tenetur recusandae incidunt totam sint harum
-              accusantium aliquid, nihil optio dicta! Ut, in officiis cum quidem
-              unde officia, hic quam provident deleniti possimus excepturi rerum
-              veritatis!
-            </p>
-            <br />
-            <span> Where does it come from? </span>
-            <br />
-            <br />
-            <p>
-              Lorem ipsum dolor Lorem ipsum dolor sit amet. Lorem ipsum dolor
-              sit amet consectetur adipisicing elit. Voluptas, mollitia. sit
-              amet consectetur adipisicing elit. Dolorem consectetur, cupiditate
-              molestiae dolorum labore tenetur recusandae incidunt totam sint
-              harum accusantium aliquid, nihil optio dicta! Ut, in officiis cum
-              quidem unde officia, hic quam provident deleniti possimus
-              excepturi rerum veritatis!
-            </p>
-            <br />
-          </div>
+      </div>
+    </body>
+    <!-- Comment Box -->
+    <section class="comment-section">
+      <div class="container my-5 py-5">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-12 col-lg-10 col-xl-8">
+            <div class="card" id="item-6">
+              <div class="card-body p-4">
+                <div class="row">
+                  <div class="col">
+                    <form>
+                      <div class="form-group" id="item-7">
+                        <textarea
+                          class="form-control"
+                          id="exampleFormControlTextarea1"
+                          rows="5"
+                          placeholder="Add a Comment"
+                        ></textarea>
+                      </div>
+                    </form>
+                    <button class="button">Post</button>
+                    <div class="d-flex flex-start">
+                      <div class="flex-grow-1 flex-shrink-1">
+                        <div>
+                          <div
+                            class="
+                              d-flex
+                              justify-content-between
+                              align-items-center
+                            "
+                          >
+                            <p class="mb-1">
+                              Maria Smantha
+                              <span class="small">- 2 hours ago</span>
+                            </p>
+                          </div>
+                          <p class="small mb-0">
+                            It is a long established fact that a reader will be
+                            distracted by the readable content of a page.
+                          </p>
+                        </div>
+                        <div>
+                          <a href="#!"
+                            ><i class="fa fa-reply fa-xs"></i
+                            ><span class="small"> reply</span></a
+                          >
+                          <a href="#!"
+                            ><i class="fa fa-share fa-xs"></i
+                            ><span class="small"> share</span></a
+                          >
+                          <a href="#!"
+                            ><i class="fa fa-thumbs-up fa-xs"></i
+                            ><span class="small"> like</span></a
+                          >
+                        </div>
+                      </div>
+                    </div>
 
-          <div class="bottom-tag">
-            <div class="bottom-btn-list">
-              <button class="btn">Tag</button>
-            </div>
-            <div class="bottom-btn-list">
-              <button class="btn">Keyword</button>
-            </div>
-            <div class="bottom-btn-list">
-              <button class="btn">Keyword</button>
+                    <div class="d-flex flex-start mt-4">
+                      <div class="flex-grow-1 flex-shrink-1">
+                        <div>
+                          <div
+                            class="
+                              d-flex
+                              justify-content-between
+                              align-items-center
+                            "
+                          >
+                            <p class="mb-1">
+                              Natalie Smith
+                              <span class="small">- 2 hours ago</span>
+                            </p>
+                          </div>
+                          <p class="small mb-0">
+                            The standard chunk of Lorem Ipsum used since the
+                            1500s is reproduced below for those interested.
+                            Sections 1.10.32 and 1.10.33.
+                          </p>
+                        </div>
+                        <div>
+                          <a href="#!"
+                            ><i class="fa fa-reply fa-xs"></i
+                            ><span class="small"> reply</span></a
+                          >
+                          <a href="#!"
+                            ><i class="fa fa-reply fa-xs"></i
+                            ><span class="small"> reply</span></a
+                          >
+                          <a href="#!"
+                            ><i class="fa fa-thumbs-up fa-xs"></i
+                            ><span class="small"> like</span></a
+                          >
+                        </div>
+
+                        <div class="d-flex flex-start mt-4" id="item-8">
+                          <a class="me-3" href="#"> </a>
+                          <div class="flex-grow-1 flex-shrink-1">
+                            <div>
+                              <div
+                                class="
+                                  d-flex
+                                  justify-content-between
+                                  align-items-center
+                                "
+                              >
+                                <p class="mb-1">
+                                  Lisa Cudrow
+                                  <span class="small">- 4 hours ago</span>
+                                </p>
+                              </div>
+                              <p class="small mb-0">
+                                Cras sit amet nibh libero, in gravida nulla.
+                                Nulla vel metus scelerisque ante sollicitudin
+                                commodo. Cras purus odio, vestibulum in
+                                vulputate at, tempus viverra turpis.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+      integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
